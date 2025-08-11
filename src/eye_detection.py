@@ -9,5 +9,5 @@ def detect_eyes(gray_frame):
     Detect eyes in a grayscale image frame.
     Returns a list of bounding boxes (x, y, w, h).
     """
-    eyes = eye_cascade.detectMultiScale(gray_frame, scaleFactor=1.1, minNeighbors=5)
+    eyes = eye_cascade.detectMultiScale(gray_frame, scaleFactor=1.2, minNeighbors=8, minSize=(30,30))
     return eyes
