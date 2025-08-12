@@ -12,7 +12,7 @@ def smooth_pos(new_pos, previous_pos, alpha=0.2):
     x = int(alpha * new_pos[0] + (1 - alpha) * previous_pos[0])
     y = int(alpha * new_pos[1] + (1 - alpha) * previous_pos[1])
     return (x, y)
-
+ 
 def main():
     global previous_pos  # to modify the outer variable
 
