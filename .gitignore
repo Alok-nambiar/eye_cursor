@@ -214,9 +214,6 @@ __marimo__/
 *.avi
 *.mov
 *.mkv
-*.jpg
-*.jpeg
-*.png
 *.bmp
 *.tiff
 *.raw
