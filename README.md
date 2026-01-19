@@ -51,7 +51,7 @@ The system is designed as an assistive technology and a human–computer interac
 
 ## 📂 Project Structure
 
-```text
+
 EyeCursor/
 │
 ├── src/
@@ -74,13 +74,13 @@ EyeCursor/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-text```
+
 ---
 
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/ChikkannaS/EyeCursor.git
 cd EyeCursor
 2️⃣ Create Virtual Environment (Recommended)
@@ -96,57 +96,56 @@ pip install -r requirements.txt
 bash
 Copy code
 python src/main_with_ui.py
-🖥️ Application Workflow
-Running main_with_ui.py launches the EyeCursor UI
 
-The UI contains four main sections:
+---
 
-Camera Feed – Displays live eye tracking
+## 🖥️ Application Workflow
 
-Calibration – Calibrates gaze for the user
+- Running `main_with_ui.py` launches the **EyeCursor UI**
+- The UI contains **four main sections**:
+  - **Camera Feed** – Displays live eye tracking
+  - **Calibration** – Calibrates gaze for the user
+  - **Settings** – Adjusts sensitivity and smoothing
+  - **Logs** – Shows system events and status
+- Cursor movement is controlled using **eye gaze**
+- Voice commands provide additional control options
 
-Settings – Adjusts sensitivity and smoothing
+---
 
-Logs – Shows system events and status
+## 🧪 Use Cases
 
-Cursor movement is controlled using eye gaze
+- Hands-free computer control
+- Assistive technology for accessibility
+- Human–computer interaction research
+- Academic and learning projects
 
-Voice commands provide additional control options
+---
 
-🧪 Use Cases
-Hands-free computer control
+## 📸 Screenshots
 
-Assistive technology for accessibility
+### Main UI
+![Main UI](screenshots/main_ui.png)
 
-Human–computer interaction research
+### Calibration Screen
+![Calibration Screen](screenshots/calibration.png)
 
-Academic and learning projects
+---
 
-📸 Screenshots
-Main UI
-screenshots/main_ui.png
+## 🔮 Future Enhancements
 
-Calibration Screen
-screenshots/calibration.png
+- Blink-based click actions
+- Multi-monitor support
+- MediaPipe-based gaze estimation
+- AI-driven personalization
+- Performance optimization
 
-🔮 Future Enhancements
-Blink-based click actions
+---
 
-Multi-monitor support
+## 🎓 Academic & Placement Note
 
-MediaPipe-based gaze estimation
+This project was developed as a **college academic project** and demonstrates:
 
-AI-driven personalization
-
-Performance optimization
-
-🎓 Academic & Placement Note
-This project was developed as a college academic project and demonstrates:
-
-Real-time computer vision
-
-Modular Python architecture
-
-Signal smoothing and filtering
-
-Offline AI integration
+- Real-time computer vision
+- Modular Python architecture
+- Signal smoothing and filtering
+- Offline AI integration
