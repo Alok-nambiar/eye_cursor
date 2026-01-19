@@ -221,7 +221,6 @@ __marimo__/
 *.tiff
 *.raw
 *.csv
-*.json
 
 # Calibration and Training Data
 calibration_data/
