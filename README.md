@@ -51,7 +51,7 @@ The system is designed as an assistive technology and a human–computer interac
 
 ## 📂 Project Structure
 
-
+```text
 EyeCursor/
 │
 ├── src/
@@ -74,11 +74,11 @@ EyeCursor/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## ▶️ How to Run the Project
-
+```bash
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/ChikkannaS/EyeCursor.git
@@ -96,7 +96,7 @@ pip install -r requirements.txt
 bash
 Copy code
 python src/main_with_ui.py
-
+```
 ---
 
 ## 🖥️ Application Workflow
