@@ -96,7 +96,10 @@ pip install -r requirements.txt
 bash
 Copy code
 python src/main_with_ui.py
-🖥️ Application Workflow
+```
+---
+
+## 🖥️ Application Workflow
 Running main_with_ui.py launches the EyeCursor UI
 
 The UI contains four main sections:
