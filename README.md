@@ -75,29 +75,27 @@ EyeCursor/
 ├── .gitignore
 └── README.md
 
-▶️ How to Run the Project
-1️⃣ Clone the Repository
-bash-
-Copy code
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/ChikkannaS/EyeCursor.git
 cd EyeCursor
-
 2️⃣ Create Virtual Environment (Recommended)
-bash-
+bash
 Copy code
 python -m venv venv
 venv\Scripts\activate
-
 3️⃣ Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
-
 4️⃣ Run the Application
 bash
 Copy code
 python src/main_with_ui.py
-
 🖥️ Application Workflow
 Running main_with_ui.py launches the EyeCursor UI
 
@@ -114,7 +112,6 @@ Logs – Shows system events and status
 Cursor movement is controlled using eye gaze
 
 Voice commands provide additional control options
- 
 
 🧪 Use Cases
 Hands-free computer control
@@ -125,43 +122,31 @@ Human–computer interaction research
 
 Academic and learning projects
 
+📸 Screenshots
+Main UI
+screenshots/main_ui.png
 
-## 📸 Screenshots
-
-### Main UI
-![EyeCursor Main UI](screenshots/main_ui.png)
-
-### Calibration Screen
-![Calibration Screen](screenshots/calibration.png)## 📸 Screenshots
-
-### Main UI
-![EyeCursor Main UI](screenshots/main_ui.png)
-
-### Calibration Screen
-![Calibration Screen](screenshots/calibration.png)
-
-
+Calibration Screen
+screenshots/calibration.png
 
 🔮 Future Enhancements
--Blink-based click actions
+Blink-based click actions
 
--Multi-monitor support
+Multi-monitor support
 
--MediaPipe-based gaze estimation
+MediaPipe-based gaze estimation
 
--AI-driven personalization
+AI-driven personalization
 
--Performance optimization
-
-
+Performance optimization
 
 🎓 Academic & Placement Note
 This project was developed as a college academic project and demonstrates:
 
--Real-time computer vision
+Real-time computer vision
 
--Modular Python architecture
+Modular Python architecture
 
--Signal smoothing and filtering
+Signal smoothing and filtering
 
--Offline AI integration
+Offline AI integration
