@@ -96,19 +96,22 @@ pip install -r requirements.txt
 bash
 Copy code
 python src/main_with_ui.py
-```
----
+🖥️ Application Workflow
+Running main_with_ui.py launches the EyeCursor UI
 
-## 🖥️ Application Workflow
+The UI contains four main sections:
 
-- Running `main_with_ui.py` launches the **EyeCursor UI**
-- The UI contains **four main sections**:
-  - **Camera Feed** – Displays live eye tracking
-  - **Calibration** – Calibrates gaze for the user
-  - **Settings** – Adjusts sensitivity and smoothing
-  - **Logs** – Shows system events and status
-- Cursor movement is controlled using **eye gaze**
-- Voice commands provide additional control options
+Camera Feed – Displays live eye tracking
+
+Calibration – Calibrates gaze for the user
+
+Settings – Adjusts sensitivity and smoothing
+
+Logs – Shows system events and status
+
+Cursor movement is controlled using eye gaze
+
+Voice commands provide additional control options
 
 ---
 
