@@ -1,0 +1,1 @@
+{"enable_actions": false, "smoothing_window": 6, "smoothing_alpha": 0.93, "eye_close_thr": 0.018, "min_closed_ms": 220, "snap_radius": 115, "dwell_time": 0.06}
