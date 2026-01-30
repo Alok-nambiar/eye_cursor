@@ -133,7 +133,7 @@ Voice commands provide additional control options
 ![Main UI](screenshots/main_ui.png)
 
 ### Calibration Screen
-![Calibration Screen](screenshots/calibration.png)
+![Calibration Screen](screenshots/calibration_screen.png)
 
 ---
 
